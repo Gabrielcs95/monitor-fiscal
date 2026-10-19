@@ -1,0 +1,19 @@
+# Ambiente Virtual
+venv/
+env/
+
+# Arquivos de configuração e senhas
+.env
+
+# Banco de dados local
+database/*.db
+
+# Arquivos gerados pelo robô (PDFs, planilhas, logs)
+certidoes/*
+!certidoes/.gitkeep
+debug/*
+!debug/.gitkeep
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
